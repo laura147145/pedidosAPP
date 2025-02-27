@@ -3,6 +3,8 @@ package com.example.pedidosAPP.modelos;
 import com.example.pedidosAPP.ayudas.enums.UsuarioEnum;
 
 public class Usuario {
+
+
     private Integer id;
     private String nombre;
     private String correoElectronico;
@@ -11,6 +13,7 @@ private String telefono;
 private UsuarioEnum tipoUsuario;
 
     public Usuario() {
+
     }
 
     public Usuario(Integer id, String nombre, String correoElectronico, String contrasena, String telefono, UsuarioEnum tipoUsuario) {
